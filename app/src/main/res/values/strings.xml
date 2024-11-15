@@ -1,0 +1,13 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Navigation Drawer</string>
+
+    <!-- Navigation Drawer Items -->
+    <string name="nav_home">Home</string>
+    <string name="nav_team_management">Team Management</string>
+    <string name="nav_sub_team">Sub Team</string>
+    <string name="nav_full_team">Full Team</string>
+
+    <!-- Header -->
+    <string name="welcome_message">Welcome</string>
+</resources>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Non-dropdown item -->
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@android:drawable/ic_menu_view" />
+
+    <!-- Team Management Dropdown with Sub-options -->
+    <group
+        android:id="@+id/group_team_management"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_team_management"
+            android:title="Team Management"
+            android:icon="@android:drawable/ic_menu_manage" />
+
+        <item
+            android:id="@+id/nav_sub_team"
+            android:title="Sub Team"
+            android:icon="@android:drawable/ic_menu_add"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_full_team"
+            android:title="Full Team"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:visible="false" />
+    </group>
+
+</menu>

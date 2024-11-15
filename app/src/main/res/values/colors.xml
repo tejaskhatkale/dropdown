@@ -1,0 +1,9 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="drawer_header_background">#6200EE</color> <!-- Purple -->
+    <color name="drawer_item_background">#FFFFFF</color> <!-- White -->
+    <color name="drawer_item_selected">#BB86FC</color> <!-- Light Purple -->
+    <color name="drawer_item_text">#000000</color> <!-- Black -->
+    <color name="drawer_item_text_selected">#FFFFFF</color> <!-- White -->
+    <color name="drawer_background">#F1F1F1</color> <!-- Light Gray -->
+</resources>
